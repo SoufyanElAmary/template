@@ -1,0 +1,83 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8000
+  Network URL: http://192.168.1.7:8000
+
+2024-06-09 17:02:59.521 Uncaught app exception
+Traceback (most recent call last):
+  File "C:\Users\Soufyan\.virtualenvs\st-bank-OibX3Mpo\lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 600, in _run_script
+    exec(code, module.__dict__)
+  File "C:\VSCode projects\python projects\st-bank\src\dashboard\main.py", line 2, in <module>
+    from components import exploratory_data_analysis, training, inference
+  File "C:\VSCode projects\python projects\st-bank\src\dashboard\components\exploratory_data_analysis.py", line 9, in <module>
+    from src.utils.preprocessing import PreprocessingUtils
+  File "C:\VSCode projects\python projects\st-bank\src\utils\preprocessing.py", line 1, in <module>
+    from sklearn.utils import resample,shuffle
+ModuleNotFoundError: No module named 'sklearn'
+2024-06-09 17:03:04.410 Uncaught app exception
+Traceback (most recent call last):
+  File "C:\Users\Soufyan\.virtualenvs\st-bank-OibX3Mpo\lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 600, in _run_script
+    exec(code, module.__dict__)
+  File "C:\VSCode projects\python projects\st-bank\src\dashboard\main.py", line 2, in <module>
+    from components import exploratory_data_analysis, training, inference
+  File "C:\VSCode projects\python projects\st-bank\src\dashboard\components\training.py", line 7, in <module>
+    from src.training.train_pipeline import TrainingPipeline
+  File "C:\VSCode projects\python projects\st-bank\src\training\train_pipeline.py", line 4, in <module>
+    from sklearn.metrics import accuracy_score, f1_score, confusion_matrix, precision_score, recall_score
+ModuleNotFoundError: No module named 'sklearn'
+2024-06-09 17:06:42.741 Uncaught app exception
+Traceback (most recent call last):
+  File "C:\Users\Soufyan\.virtualenvs\st-bank-OibX3Mpo\lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 600, in _run_script
+    exec(code, module.__dict__)
+  File "C:\VSCode projects\python projects\st-bank\src\dashboard\main.py", line 2, in <module>
+    from components import exploratory_data_analysis, training, inference
+  File "C:\VSCode projects\python projects\st-bank\src\dashboard\components\exploratory_data_analysis.py", line 9, in <module>
+    from src.utils.preprocessing import PreprocessingUtils
+  File "C:\VSCode projects\python projects\st-bank\src\utils\preprocessing.py", line 1, in <module>
+    from sklearn.utils import resample,shuffle
+ModuleNotFoundError: No module named 'sklearn'
+2024-06-09 18:22:38.595 Uncaught app exception
+Traceback (most recent call last):
+  File "C:\Users\Soufyan\.virtualenvs\st-bank-OibX3Mpo\lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 600, in _run_script
+    exec(code, module.__dict__)
+  File "C:\VSCode projects\python projects\st-bank\src\dashboard\main.py", line 2, in <module>
+    from components import exploratory_data_analysis, training, inference
+  File "C:\VSCode projects\python projects\st-bank\src\dashboard\components\exploratory_data_analysis.py", line 9, in <module>
+    from src.utils.preprocessing import PreprocessingUtils
+  File "C:\VSCode projects\python projects\st-bank\src\utils\preprocessing.py", line 1, in <module>
+    from sklearn.utils import resample,shuffle
+ModuleNotFoundError: No module named 'sklearn'
+2024-06-09 18:53:33.483 Uncaught app exception
+Traceback (most recent call last):
+  File "C:\Users\Soufyan\.virtualenvs\st-bank-OibX3Mpo\lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 600, in _run_script
+    exec(code, module.__dict__)
+  File "C:\VSCode projects\python projects\st-bank\src\dashboard\main.py", line 2, in <module>
+    from components import exploratory_data_analysis, training, inference
+  File "C:\VSCode projects\python projects\st-bank\src\dashboard\components\exploratory_data_analysis.py", line 9, in <module>
+    from src.utils.preprocessing import PreprocessingUtils
+  File "C:\VSCode projects\python projects\st-bank\src\utils\preprocessing.py", line 1, in <module>
+    from sklearn.utils import resample,shuffle
+ModuleNotFoundError: No module named 'sklearn'
+2024-06-09 22:53:12.571 Uncaught app exception
+Traceback (most recent call last):
+  File "C:\Users\Soufyan\.virtualenvs\st-bank-OibX3Mpo\lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 600, in _run_script
+    exec(code, module.__dict__)
+  File "C:\VSCode projects\python projects\st-bank\src\dashboard\main.py", line 2, in <module>
+    from components import exploratory_data_analysis, training, inference
+  File "C:\VSCode projects\python projects\st-bank\src\dashboard\components\exploratory_data_analysis.py", line 9, in <module>
+    from src.utils.preprocessing import PreprocessingUtils
+  File "C:\VSCode projects\python projects\st-bank\src\utils\preprocessing.py", line 1, in <module>
+    from sklearn.utils import resample,shuffle
+ModuleNotFoundError: No module named 'sklearn'
+2024-06-09 23:40:51.202 Uncaught app exception
+Traceback (most recent call last):
+  File "C:\Users\Soufyan\.virtualenvs\st-bank-OibX3Mpo\lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 600, in _run_script
+    exec(code, module.__dict__)
+  File "C:\VSCode projects\python projects\st-bank\src\dashboard\main.py", line 2, in <module>
+    from components import exploratory_data_analysis, training, inference
+  File "C:\VSCode projects\python projects\st-bank\src\dashboard\components\exploratory_data_analysis.py", line 9, in <module>
+    from src.utils.preprocessing import PreprocessingUtils
+  File "C:\VSCode projects\python projects\st-bank\src\utils\preprocessing.py", line 1, in <module>
+    from sklearn.utils import resample,shuffle
+ModuleNotFoundError: No module named 'sklearn'
